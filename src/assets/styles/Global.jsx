@@ -19,13 +19,13 @@ export const GlobalStyle = createGlobalStyle`
 
   h1, .h1 {
     color: ${({ theme }) => theme.colors.primary};
-    font-size: 4.8rem;
-    line-height: 4.8rem;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
   }
   
   h2, .h2{
     color: ${({ theme }) => theme.colors.background};
-    font-size: 3.6rem;
+    font-size: 4.8rem;
     font-weight: 500;
   }
 
