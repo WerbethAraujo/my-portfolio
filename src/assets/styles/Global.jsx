@@ -17,6 +17,11 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif
   }
 
+  button{
+    cursor: pointer;
+    outline: none;
+  }
+
   h1, .h1 {
     color: ${({ theme }) => theme.colors.primary};
     font-size: 7.5rem;
@@ -39,5 +44,10 @@ export const GlobalStyle = createGlobalStyle`
       margin-bottom: 1.5rem;
     }
 
+  }
+
+
+  a{
+    text-decoration: none;
   }
 `;

@@ -1,17 +1,16 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-
-import defaultTheme from './assets/styles/theme/default';
-import { GlobalStyle } from './assets/styles/Global';
 
 import Header from './components/Header';
+import About from './components/About';
 
 const App = () => {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <GlobalStyle />
+    <>
       <Header />
-    </ThemeProvider>
+      <main>
+        <About />
+      </main>
+    </>
   );
 };
 

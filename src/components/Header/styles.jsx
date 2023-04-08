@@ -90,6 +90,7 @@ export const Content = styled.div`
   span {
     color: ${({ theme }) => theme.colors.white};
     margin-bottom: 1rem;
+    font-size: 1.6rem;
   }
 
   p {
