@@ -1,12 +1,16 @@
 import React from 'react';
 import { Container, Content } from './styles';
+import Box from '../Box';
 import Avatar2 from '../../assets/images/avatar2.jpg';
 
 const About = () => {
   return (
     <Container>
-      <div>
-        <img src={Avatar2} alt='avatar 2' />
+      <div className='avatar2'>
+        <img src={Avatar2} alt='imagem da seção sobre' />
+        <div className='box'>
+          <Box text='sobre' />
+        </div>
       </div>
       <Content>
         <h2>Sobre Mim</h2>

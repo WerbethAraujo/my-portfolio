@@ -10,21 +10,28 @@ export const Container = styled.section`
   align-items: center;
   justify-content: space-between;
 
-  div {
+  .avatar2 {
     position: relative;
     width: 100%;
-    max-width: 55rem;
+    max-width: 47rem;
 
     img {
       width: 100%;
       height: 43rem;
       object-fit: fill;
     }
+
+    .box {
+      position: absolute;
+      top: -7rem;
+      left: -1rem;
+    }
   }
 `;
 
 export const Content = styled.div`
   width: 100%;
+  max-width: 60rem;
 
   h2 {
     margin-bottom: 1.5rem;

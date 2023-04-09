@@ -40,18 +40,19 @@ export const Container = styled.header`
     }
 
     .arrow {
-      position: fixed;
+      position: absolute;
       background: ${({ theme }) => theme.colors.primary};
       width: 9rem;
       height: 9rem;
       border-radius: 50%;
       bottom: 4rem;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 47%;
+      transform: translateY(-50%);
       display: flex;
       align-items: center;
       justify-content: center;
       animation: up-down 0.5s infinite alternate;
+      z-index: 100;
 
       .icon {
         color: ${({ theme }) => theme.colors.background};
