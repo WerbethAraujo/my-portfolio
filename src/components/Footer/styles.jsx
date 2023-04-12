@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+<<<<<<< HEAD
 export const Container = styled.footer`
   background: ${({ theme }) => theme.colors.background};
 
@@ -86,3 +87,10 @@ export const FormBox = styled.div`
     font-size: 1.4rem;
   }
 `;
+=======
+export const Container = styled.footer``;
+
+export const Form = styled.form``;
+
+export const FormBox = styled.div``;
+>>>>>>> b96d82f8fef80424894f466c7a00de90780f8ca2
