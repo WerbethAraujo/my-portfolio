@@ -40,31 +40,19 @@ export const Container = styled.header`
     }
 
     .arrow {
-<<<<<<< HEAD
       position: absolute;
-=======
-      position: fixed;
->>>>>>> 4754215d0d6e0ba8c8d287ee1691e793ed437797
       background: ${({ theme }) => theme.colors.primary};
       width: 9rem;
       height: 9rem;
       border-radius: 50%;
       bottom: 4rem;
-<<<<<<< HEAD
       left: 47%;
       transform: translateY(-50%);
-=======
-      left: 50%;
-      transform: translateX(-50%);
->>>>>>> 4754215d0d6e0ba8c8d287ee1691e793ed437797
       display: flex;
       align-items: center;
       justify-content: center;
       animation: up-down 0.5s infinite alternate;
-<<<<<<< HEAD
       z-index: 100;
-=======
->>>>>>> 4754215d0d6e0ba8c8d287ee1691e793ed437797
 
       .icon {
         color: ${({ theme }) => theme.colors.background};

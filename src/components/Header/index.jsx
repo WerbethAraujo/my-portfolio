@@ -1,10 +1,6 @@
 import React from 'react';
 import { RiLinkedinFill, RiWhatsappFill } from 'react-icons/ri';
-<<<<<<< HEAD
 import { AiOutlineArrowDown, AiFillGithub } from 'react-icons/ai';
-=======
-import { AiFillInstagram, AiOutlineArrowDown } from 'react-icons/ai';
->>>>>>> 4754215d0d6e0ba8c8d287ee1691e793ed437797
 import Avatar from '../../assets/images/eu.jpg';
 import { Container, Content, SocialsBox } from './styles';
 
@@ -32,11 +28,7 @@ const Header = () => {
             <RiWhatsappFill className='icon' />
           </a>
           <a href='#'>
-<<<<<<< HEAD
             <AiFillGithub className='icon' />
-=======
-            <AiFillInstagram className='icon' />
->>>>>>> 4754215d0d6e0ba8c8d287ee1691e793ed437797
           </a>
         </SocialsBox>
         <a href='#' className='arrow'>
