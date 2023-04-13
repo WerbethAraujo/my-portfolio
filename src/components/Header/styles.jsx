@@ -4,6 +4,10 @@ export const Container = styled.header`
   background: ${({ theme }) => theme.colors.background};
   margin-bottom: ${({ theme }) => theme.sizes.marginBottom};
 
+  @media screen and (max-width: 425px) {
+    margin-bottom: ${({ theme }) => theme.sizes.marginBottomMobile};
+  }
+
   .header {
     position: relative;
     width: 100%;
